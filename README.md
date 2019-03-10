@@ -15,7 +15,7 @@ It works best in situations when you want to have a square image but the image's
 * `attachment`: set the image background attachment. *default is blank*
 * `fallbackSrc`: set a fallback image URL. *default is blank*
 
-Following properties are all CSS properties so you can use same valus as CSS: `size` `position` `width` `height` `repeat` `attachment`
+Following properties are all CSS properties so you can use same values as in CSS: `size` `position` `width` `height` `repeat` `attachment`
 
 ## Downlaod
 
