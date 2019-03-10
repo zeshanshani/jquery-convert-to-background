@@ -8,6 +8,7 @@ It works best in situations when you want to have a square image but the image's
 ## Options
 
 * `size`: set the image background size. *default is `cover`*
+* `responsive`: set to 'true' if you want the element to resize as a normal image on responsive devices. *default is `false`*
 * `position`: set the image background position. *default is `center center`*
 * `width`: set a custom width of the box, applies on the container. *default is blank,*
 * `height`: set a custom height of the box, applies on the container. *default is blank*
@@ -42,6 +43,7 @@ You can also use the minified version, which is: `jquery.convertToBackground.min
 ``` JS
 $('.element-that-has-img').convertToBackground({
   // size: 'cover',
+  // responsive: false,
   // position: 'center center',
   width: 300,
   height: 200,
