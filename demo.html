@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Convert To Background - Demo</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .wrapper {
+        max-width: 1070px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .row:before,
+      .row:after {content:'.';display:block;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0}
+      .row:after {clear:both}
+
+      .left {
+        float: left;
+        width: 47%;
+      }
+
+      .right {
+        float: right;
+        width: 47%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Convert To Background - Demo</h1>
+      <div class="row">
+        <div class="left">
+          <h3>Original</h3>
+          <div class="original">
+            <img src="https://via.placeholder.com/500x250" alt="">
+          </div>
+        </div>
+        <div class="right">
+          <h3>After Converting</h3>
+          <div class="element-that-has-image">
+            <img src="https://via.placeholder.com/500x250" alt="">
+          </div>
+        </div>
+      </div>
+      <p><a href="https://github.com/zeshanshani/jquery-convert-to-background/">Back To Github</a></p>
+    </div>
+  </body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src="jquery.convertToBackground.js"></script>
+  <script>
+    $('.element-that-has-image').convertToBackground({
+      // size: 'cover',
+      // position: 'center center',
+      width: 250,
+      height: 250,
+      // repeat: 'no-repeat',
+      // attachment: '',
+      // fallbackSrc: '',
+    });
+  </script>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "jquery-convert-to-background",
+  "version": "1.0",
+  "description": "Convert an image into the background image while keeping the normal image tag in place for SEO purpose.",
+  "main": "jquery.convertToBackground.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://zeshanshani@github.com/zeshanshani/jquery-convert-to-background.git"
+  },
+  "keywords": [
+    "jquery",
+    "image",
+    "background-image",
+    "convert-to-background"
+  ],
+  "author": "Zeshan Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeshanshani/jquery-convert-to-background/issues"
+  },
+  "homepage": "https://github.com/zeshanshani/jquery-convert-to-background#readme"
+}
