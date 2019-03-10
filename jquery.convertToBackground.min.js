@@ -1,7 +1,7 @@
 /**
  * Convert To Background
  *
- * Version: 1.1
+ * Version: 1.1.0
  * Author: Zeshan Ahmed
  * Website: https://zeshanahmed.com/
  * Github: https://github.com/zeshanshani/jquery-convert-to-background/
