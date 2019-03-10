@@ -1,6 +1,6 @@
 {
   "name": "jquery-convert-to-background",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert an image into the background image while keeping the normal image tag in place for SEO purpose.",
   "main": "jquery.convertToBackground.js",
   "scripts": {
