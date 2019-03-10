@@ -17,14 +17,34 @@ It works best in situations when you want to have a square image but the image's
 
 Following properties are all CSS properties so you can use same valus as CSS: `size` `position` `width` `height` `repeat` `attachment`
 
+## Downlaod
+
+### Via NPM
+
+Download this plugin using this NPM commend.
+
+```
+npm i jquery-convert-to-background
+```
+
+### Regular
+
+Simply close this repository or download it as zip. After that, include the `jquery.convertToBackground.js` file in the head or footer of your HTML page.
+
+``` HTML
+<script src="/js/jquery.convertToBackground.js"></script>
+```
+
+You can also use the minified version, which is: `jquery.convertToBackground.min.js`
+
 ## Usage
 
 ``` JS
 $('.element-that-has-img').convertToBackground({
   // size: 'cover',
   // position: 'center center',
-  // width: '',
-  // height: '',
+  width: 300,
+  height: 200,
   // repeat: 'no-repeat',
   // attachment: '',
   // fallbackSrc: '',
